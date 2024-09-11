@@ -9,6 +9,7 @@
   "author": "heejung0413 <heejung0413@gmail.com>",
   "scripts": {
     "dev": "vite",
+    "prepare": "husky install",
     "build": "tsc -b && vite build",
     "lint": "eslint 'src/**/*.{ts,tsx}' --fix",
     "preview": "vite preview",
